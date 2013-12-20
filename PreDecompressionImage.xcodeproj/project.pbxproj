@@ -41,7 +41,7 @@
 		877FE3CD1863EEB900BDB05E /* ImagePreDeCompresser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePreDeCompresser.h; sourceTree = "<group>"; };
 		877FE3CE1863EEB900BDB05E /* ImagePreDeCompresser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePreDeCompresser.m; sourceTree = "<group>"; };
 		878306441862A27F009C769E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		87995B451862910100442ACB /* PreDecompressionImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreDecompressionImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87995B451862910100442ACB /* 图片预渲染.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图片预渲染.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87995B481862910100442ACB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		87995B4A1862910100442ACB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		87995B4C1862910100442ACB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -100,7 +100,7 @@
 		87995B461862910100442ACB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87995B451862910100442ACB /* PreDecompressionImage.app */,
+				87995B451862910100442ACB /* 图片预渲染.app */,
 				87995B661862910100442ACB /* PreDecompressionImageTests.xctest */,
 			);
 			name = Products;
@@ -181,7 +181,7 @@
 			);
 			name = PreDecompressionImage;
 			productName = PreDecompressionImage;
-			productReference = 87995B451862910100442ACB /* PreDecompressionImage.app */;
+			productReference = 87995B451862910100442ACB /* 图片预渲染.app */;
 			productType = "com.apple.product-type.application";
 		};
 		87995B651862910100442ACB /* PreDecompressionImageTests */ = {
@@ -397,7 +397,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PreDecompressionImage/PreDecompressionImage-Prefix.pch";
 				INFOPLIST_FILE = "PreDecompressionImage/PreDecompressionImage-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "图片预渲染";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,7 +410,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PreDecompressionImage/PreDecompressionImage-Prefix.pch";
 				INFOPLIST_FILE = "PreDecompressionImage/PreDecompressionImage-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "图片预渲染";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
