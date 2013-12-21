@@ -64,7 +64,6 @@ static const NSUInteger kMaxCacheImageCount = 8;
   if (!_preDecompressionQueue) {
     _preDecompressionQueue = [[NSOperationQueue alloc] init];
     _preDecompressionQueue.name = @"reDecompression Queue";
-//    _preDecompressionQueue.maxConcurrentOperationCount = kPreDecompressionImageCount;
   }
   
   return _preDecompressionQueue;
