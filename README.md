@@ -1,4 +1,4 @@
-PreDecompressionImage For iOS
+PreDecompression Image For iOS
 =====================
 
 
